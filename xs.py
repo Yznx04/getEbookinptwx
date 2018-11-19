@@ -1,6 +1,7 @@
 import requests
 from lxml import etree
 from urllib.parse import urljoin
+import bs4
 
 start_url = "https://www.piaotian.com/html/0/251/"
 headers = {
