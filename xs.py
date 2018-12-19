@@ -16,9 +16,7 @@ def get_proxies(self):
     :param self:不需要传入
     :return: 返回一个str类型的值
     """
-    proxie_url = 'https://proxy.horocn.com/api/proxies?' \
-                 'order_id=ZHAS1620080120237704&num=1&format=text&' \
-                 'line_separator=win'
+    proxie_url = 'xxxxxxxxxxxxxxxxxxxxxx'
     IP = requests.get(proxie_url).content.decode()
     init_proxies = 'http://{}'
     proxie_list = {}
